@@ -31,12 +31,18 @@ public class Scanner01 {
 //        String str = scanner.nextLine(); //\n
 //        System.out.println("num은" + num + "str은" + str);
 
-//        int age;
-//        String name;
+        int age;
+        String name;
         // 두개 입력받고 출력
-        int age = scanner.nextInt();
+//        int age = scanner.nextInt();
+//        scanner.nextLine();
+//        String name = scanner.nextLine();
+//        System.out.println("나이는 :" + age + " 이름은 :" + name);
+        System.out.print("나이를 입력해주세요 >>>");
+        age = scanner.nextInt();
         scanner.nextLine();
-        String name = scanner.nextLine();
-        System.out.println("나이는 :" + age + " 이름은 :" + name);
+        System.out.print("이름을 입력해주세요 >>>");
+        name = scanner.nextLine();
+        System.out.println("나이는 " + age + " 이름은 " + name);
     }
 }

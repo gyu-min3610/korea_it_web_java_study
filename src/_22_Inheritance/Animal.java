@@ -17,9 +17,9 @@ public class Animal {
         this.animalAge = animalAge;
     }
 
-    public Animal(int animalAge, String animalName) {
-        this.animalAge = animalAge;
+    public Animal(String animalName ,int animalAge) {
         this.animalName = animalName;
+        this.animalAge = animalAge;
     }
 
     // getter/setter
